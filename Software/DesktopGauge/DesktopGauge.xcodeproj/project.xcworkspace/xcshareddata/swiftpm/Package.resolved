@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PerfectSysInfo",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-SysInfo.git",
+        "state": {
+          "branch": null,
+          "revision": "3aeca90d9aad656be9a5402a21f3f7ad99be2723",
+          "version": "3.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
