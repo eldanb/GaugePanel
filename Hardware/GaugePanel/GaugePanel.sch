@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 622CAC18
+P 2450 2300
+F 0 "R?" V 2657 2300 50  0000 C CNN
+F 1 "100" V 2566 2300 50  0000 C CNN
+F 2 "" V 2380 2300 50  0001 C CNN
+F 3 "~" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622CADF8
+P 1600 2000
+F 0 "R?" V 1500 2000 50  0000 C CNN
+F 1 "470" V 1400 2000 50  0000 C CNN
+F 2 "" V 1530 2000 50  0001 C CNN
+F 3 "~" H 1600 2000 50  0001 C CNN
+	1    1600 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 622CB3D7
+P 2750 2300
+F 0 "RV?" V 2635 2300 50  0000 C CNN
+F 1 "100" V 2544 2300 50  0000 C CNN
+F 2 "" H 2750 2300 50  0001 C CNN
+F 3 "~" H 2750 2300 50  0001 C CNN
+	1    2750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 622CBE3A
+P 2100 2200
+F 0 "Q?" V 2335 2200 50  0000 C CNN
+F 1 "2N3904" V 2426 2200 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 2125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2100 2200 50  0001 L CNN
+	1    2100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622CC62D
+P 900 1800
+F 0 "#PWR?" H 900 1550 50  0001 C CNN
+F 1 "GND" H 905 1627 50  0000 C CNN
+F 2 "" H 900 1800 50  0001 C CNN
+F 3 "" H 900 1800 50  0001 C CNN
+	1    900  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 622CF7EA
+P 4450 1450
+F 0 "J?" V 4388 1162 50  0000 R CNN
+F 1 "uCon" V 4297 1162 50  0000 R CNN
+F 2 "" H 4450 1450 50  0001 C CNN
+F 3 "~" H 4450 1450 50  0001 C CNN
+	1    4450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 622CFF4E
+P 3200 2150
+F 0 "J?" H 3262 2194 50  0000 L CNN
+F 1 "GALV2" H 3200 2300 50  0000 L CNN
+F 2 "" H 3200 2150 50  0001 C CNN
+F 3 "~" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 622D182F
+P 900 1700
+F 0 "#PWR?" H 900 1550 50  0001 C CNN
+F 1 "+3V3" H 915 1873 50  0000 C CNN
+F 2 "" H 900 1700 50  0001 C CNN
+F 3 "" H 900 1700 50  0001 C CNN
+	1    900  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622DD808
+P 2450 1400
+F 0 "R?" V 2657 1400 50  0000 C CNN
+F 1 "100" V 2566 1400 50  0000 C CNN
+F 2 "" V 2380 1400 50  0001 C CNN
+F 3 "~" H 2450 1400 50  0001 C CNN
+	1    2450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622DD8C4
+P 1600 1100
+F 0 "R?" V 1807 1100 50  0000 C CNN
+F 1 "470" V 1716 1100 50  0000 C CNN
+F 2 "" V 1530 1100 50  0001 C CNN
+F 3 "~" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 622DD8CE
+P 2750 1400
+F 0 "RV?" V 2543 1400 50  0000 C CNN
+F 1 "100" V 2634 1400 50  0000 C CNN
+F 2 "" H 2750 1400 50  0001 C CNN
+F 3 "~" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 622DD8D8
+P 2100 1300
+F 0 "Q?" V 2335 1300 50  0000 C CNN
+F 1 "2N3904" V 2426 1300 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 1225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2100 1300 50  0001 L CNN
+	1    2100 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 622DD8E2
+P 3200 1650
+F 0 "J?" H 3262 1694 50  0000 L CNN
+F 1 "GALV1" H 3200 1800 50  0000 L CNN
+F 2 "" H 3200 1650 50  0001 C CNN
+F 3 "~" H 3200 1650 50  0001 C CNN
+	1    3200 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 1650 2900 1700
+Wire Wire Line
+	2000 2350 2000 2500
+Wire Wire Line
+	1900 1400 1900 1800
+Wire Wire Line
+	2100 2000 1750 2000
+Wire Wire Line
+	2100 1100 1750 1100
+Wire Wire Line
+	2900 1650 3000 1650
+Wire Wire Line
+	2900 2150 3000 2150
+Wire Wire Line
+	2750 2150 2750 2050
+Wire Wire Line
+	2750 2050 3000 2050
+Wire Wire Line
+	3000 1550 2750 1550
+Wire Wire Line
+	2900 1700 900  1700
+Connection ~ 2900 1700
+Wire Wire Line
+	2900 1700 2900 2150
+Wire Wire Line
+	900  1800 1900 1800
+Connection ~ 1900 1800
+Wire Wire Line
+	1900 1800 1900 2300
+Wire Wire Line
+	1300 1100 1300 2100
+Wire Wire Line
+	1300 2100 1050 2100
+Wire Wire Line
+	1400 2000 1400 2300
+Wire Wire Line
+	1400 2300 1050 2300
+Wire Wire Line
+	1400 2000 1450 2000
+Wire Wire Line
+	1450 1100 1300 1100
+Text GLabel 1050 2100 0    50   Input ~ 0
+GPIO1
+Text GLabel 1050 2300 0    50   Input ~ 0
+GPIO2
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6235EEEF
+P 4200 1950
+F 0 "#PWR?" H 4200 1800 50  0001 C CNN
+F 1 "+3V3" H 4215 2123 50  0000 C CNN
+F 2 "" H 4200 1950 50  0001 C CNN
+F 3 "" H 4200 1950 50  0001 C CNN
+	1    4200 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623602C7
+P 4400 1950
+F 0 "#PWR?" H 4400 1700 50  0001 C CNN
+F 1 "GND" H 4405 1777 50  0000 C CNN
+F 2 "" H 4400 1950 50  0001 C CNN
+F 3 "" H 4400 1950 50  0001 C CNN
+	1    4400 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 1950 3    50   Input ~ 0
+GPIO1
+Text GLabel 4800 1950 3    50   Input ~ 0
+GPIO2
+Wire Wire Line
+	4350 1650 4350 1750
+Wire Wire Line
+	4350 1750 4200 1750
+Wire Wire Line
+	4200 1750 4200 1950
+Wire Wire Line
+	4450 1650 4450 1850
+Wire Wire Line
+	4450 1850 4400 1850
+Wire Wire Line
+	4400 1850 4400 1950
+Wire Wire Line
+	4550 1650 4550 1850
+Wire Wire Line
+	4550 1850 4600 1850
+Wire Wire Line
+	4600 1850 4600 1950
+Wire Wire Line
+	4650 1650 4650 1750
+Wire Wire Line
+	4650 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1950
+$EndSCHEMATC
